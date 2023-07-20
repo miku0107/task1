@@ -66,3 +66,24 @@ footer {
 }
 
 
+@media screen and (max-width:768px){
+  
+header{
+    width:100%;
+  }
+  
+main{
+    width:100%;
+    display:block;
+  }
+  
+.box-item{
+  width:90%;
+  margin:0 auto 20px auto ;
+}
+
+.box-item:last-child{
+  margin: 0 auto;
+}
+
+}
